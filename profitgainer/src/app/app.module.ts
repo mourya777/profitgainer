@@ -6,6 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/common_components/header/header.component';
 import { FooterComponent } from './components/common_components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
+import { CarouselHolderComponent } from './carousel-holder/carousel-holder.component';
+
+
+
+
 
 
 @NgModule({
@@ -13,13 +19,15 @@ import { HomeComponent } from './components/home/home.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselHolderComponent
   ],
   imports: [
     BrowserModule,
+    CarouselModule,
     AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } 
