@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/common_components/header/header.co
 import { FooterComponent } from './components/common_components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

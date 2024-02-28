@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Vie
+	Theme URI: http://
+	Description: Creative agency & portfolio
+	Author: ui-themez
+	Author URI: http://themeforest.net/user/ui-themez
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("assets/plugins/bootstrap.min.css");
+
+/* == animate css == */
+@import url("assets/plugins/animate.css");
+
+/* == ionicons icon font == 
+@import url("assets/plugins/ionicons.min.css");*/
+
+/* == pe-icon-7-stroke ==
+@import url("assets/plugins/pe-icon-7-stroke.css"); */
+
+/* == fontawesome icon font ==
+@import url("assets/plugins/fontawesome-all.min.css"); */
+
+/* == justifiedGallery.min == */
+@import url("assets/plugins/justifiedGallery.min.css");
+
+/* == magnific-popup == */
+@import url("assets/plugins/magnific-popup.css");
+
+
+
+/* == slick carousel == */
+@import url("assets/plugins/slick.css");
+@import url("assets/plugins/slick-theme.css");
+
+/* == swiper.min font == */
+@import url("assets/plugins/swiper.min.css");
